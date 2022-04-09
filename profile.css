@@ -1,0 +1,242 @@
+                                                    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+                                                @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+                                                 :root {
+                                                    background-color: aqua
+                                                }
+                                                
+                                                * {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                
+                                                .sidebar {
+                                                    background-color: rgb(172, 159, 159);
+                                                    font-family: 'Josefin Sans', sans-serif;
+                                                    height: 100vh;
+                                                    transition: transfrom 0.3s ease-in;
+                                                }
+                                                
+                                                .sidebar nav {
+                                                    padding: 45px;
+                                                }
+                                                
+                                                .sidebar nav li {
+                                                    list-style: none;
+                                                    font-size: 28px;
+                                                    padding: 33px 0;
+                                                }
+                                                
+                                                .sidebar nav li a {
+                                                    text-decoration: none;
+                                                    color: black;
+                                                }
+                                                
+                                                .main {
+                                                    /* background-color: rgb(252, 227, 4);*/
+                                                    width: 90vw;
+                                                }
+                                                
+                                                .contaner {
+                                                    display: flex;
+                                                }
+                                                
+                                                .info-contaner {
+                                                    /*   background-color: rgb(122, 104, 133);*/
+                                                    height: 58vh;
+                                                    width: 80vw;
+                                                    margin: 144px auto;
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                }
+                                                
+                                                .divinfo {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                    font-family: 'Source Code Pro', monospace;
+                                                }
+                                                
+                                                .hello {
+                                                    font-size: 65px;
+                                                }
+                                                
+                                                .name {
+                                                    font-size: 52px;
+                                                    font-weight: bold;
+                                                    font-family: 'Josefin Sans', sans-serif;
+                                                }
+                                                
+                                                .about {
+                                                    font-size: 40px;
+                                                }
+                                                
+                                                .More-about {
+                                                    font-size: 22px;
+                                                    font-family: 'Josefin Sans', sans-serif;
+                                                    margin-top: 23px;
+                                                }
+                                                
+                                                .buttons button {
+                                                    padding: 9px 14px;
+                                                    border-radius: 22px;
+                                                    color: white;
+                                                    background-color: dodgerblue;
+                                                    font-weight: bold;
+                                                    font-size: 21px;
+                                                    margin: 0 3px;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .buttons button:hover {
+                                                    background-color: white;
+                                                    color: dodgerblue;
+                                                }
+                                                
+                                                .buttons {
+                                                    margin-top: 34px;
+                                                }
+                                                
+                                                .divpic img {
+                                                    height: 58vh;
+                                                }
+                                                /*contact page start*/
+                                                
+                                                .contactfrom {
+                                                    font-family: 'Josefin Sans', sans-serif;
+                                                    padding: 0 34px;
+                                                    padding-top: 144px;
+                                                }
+                                                
+                                                .contactfrom h1 {
+                                                    font-family: 'Source Code Pro', monospace;
+                                                    padding: 12px 0;
+                                                }
+                                                
+                                                .contactfrom form div {
+                                                    padding: 15px 0;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                }
+                                                
+                                                .contactfrom form div input {
+                                                    width: 26vw;
+                                                    border-radius: 5px;
+                                                    margin: 6px 0 0 0;
+                                                    padding: 3px;
+                                                }
+                                                
+                                                #emailHelp {
+                                                    font-size: 10px;
+                                                    color: midnightblue;
+                                                    margin: 0 5px;
+                                                }
+                                                
+                                                #form-check {
+                                                    flex-direction: row;
+                                                }
+                                                
+                                                #form-check input {
+                                                    width: 24px;
+                                                    margin: 0 6px;
+                                                }
+                                                
+                                                .btn button {
+                                                    padding: 7px 13px;
+                                                    border-radius: 22px;
+                                                    color: white;
+                                                    background-color: dodgerblue;
+                                                    font-weight: bold;
+                                                    width: 85px;
+                                                    font-size: 10px;
+                                                    margin: 10px 0;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .btn button:hover {
+                                                    background-color: white;
+                                                    color: dodgerblue;
+                                                }
+                                                /*bloge page start*/
+                                                
+                                                .blogestar {
+                                                    font-family: 'Josefin Sans', sans-serif;
+                                                }
+                                                
+                                                .blogeitems {
+                                                    margin: 23px;
+                                                }
+                                                
+                                                .blogeitems h1 {
+                                                    font-family: 'Josefin Sans', sans-serif;
+                                                    margin: 23px;
+                                                }
+                                                
+                                                .blogestar p {
+                                                    font-family: 'Source Code Pro', monospace;
+                                                    color: red;
+                                                }
+                                                
+                                                .skillcontain {
+                                                    padding: 12px;
+                                                    display: contents;
+                                                }
+                                                
+                                                .skill {
+                                                    width: 295PX;
+                                                    height: 6PX;
+                                                    background-color: slategray;
+                                                    border: 2px solid black;
+                                                }
+                                                
+                                                .hunded {
+                                                    width: 295px;
+                                                }
+                                                
+                                                .fifty {
+                                                    width: 230PX;
+                                                    background-color: blanchedalmond;
+                                                }
+                                                
+                                                .t5 {
+                                                    width: 150PX;
+                                                    background-color: yellow;
+                                                }
+                                                
+                                                .sidebarGo {
+                                                    transform: translate(-443px, 0px);
+                                                    position: absolute;
+                                                }
+                                                
+                                                .hamburger {
+                                                    position: absolute;
+                                                    cursor: pointer;
+                                                    left: 10px;
+                                                }
+                                                
+                                                .hum {
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                .cross {
+                                                    margin-left: 200px;
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                canvas.particles-js-canvas-el {
+                                                    z-index: -10000;
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    top: 0;
+                                                    right: 0;
+                                                    left: 0;
+                                                    margin: 0px;
+                                                    position: absolute;
+                                                }
+                                                
+                                                @media screen and (max-width: 1615px) {
+                                                    * {}
+                                                    /*.sidebar {
+transform: translate(-443px, 0px);
+position: absolute;/*
+}
+}
